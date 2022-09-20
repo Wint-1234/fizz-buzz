@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     String junitVersion = '5.9.0'
-    testImplementation "org.junit.jupiter:junit-jupiterapi:$junitVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter:$junitVersion"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
 
